@@ -1,0 +1,17 @@
+// This pointer
+// ---------------
+
+/*
+A pointer contains address of an object is called Object pointer
+
+1. this is a keyword .
+
+2. this is a local pointer in every instance member function containing
+address of the caller object.
+
+3. this pointer can not be modify.
+
+4. it is used to refer caller object in member function.
+
+
+ */

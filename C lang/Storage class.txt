@@ -1,0 +1,60 @@
+// Storage class//
+-------------------------
+
+int x = 5;
+by seeing this statement  you can understand the variable
+1. name of the variable is X
+2. data type of  variable which is int
+3. size of variable /size of the memory block
+
+remaing 3 properties of variable there is also some rest of the properties of variable.
+
+1. Default Value --> what is the default value of variable .
+2. Storage  --> where does the variable get memory  either in RAM/CPU register.
+3. Scope --> the area of the score till that area we can access this particular variable.
+4. Life --> Life of the variable.
+
+
+So how we will get to know the about remaining four properties of variable
+
+""Before int there is some exists by seeing this keyword we tell the rest four properties of variable.""
+
+''If there is some keyword is not written there so by the default the Auto is written there is back end.''
+
+
+Declaration has four types of categories.
+
+1. Automatic SC
+2. Register SC
+3. Static SC
+4. External SC
+
+---------------|------------------|----------------------|-----------------------|---------------------------|---------------------------|
+STORAGE CLASS  |      kEYWORD     |    DEFAULT VALUE     |       STORAGE         |              SCOPE        |      LIFE                 |
+---------------|------------------|----------------------|-----------------------|---------------------------|---------------------------|
+ 1. AUTOMATIC  |       AUTO       |   Garbage            |        RAM            | Limited to the block      | Till the execution of     |
+               |                  |                      |                       |  in which it is declare   | the block in which it     |
+               |                  |                      |                       |                           | is declared.              |
+               |                  |                      |                       |                           |                           |
+               |                  |                      |                       |                           |                           |
+ --------------|------------------|----------------------|-----------------------|---------------------------|---------------------------|
+               |                  |                      |                       |                           |                           |
+ 2. REGISTER   |     REGISTER     |   Garbage            |       REGISTER        |        Same               |          Same             |
+               |                  |                      |                       |                           |                           |
+               |                  |                      |                       |                           |                           |
+               |                  |                      |                       |                           |                           |
+ --------------|------------------|----------------------|-----------------------|---------------------------|---------------------------|
+               |                  |                      |                       |                           |                           |
+ 3.  STATIC    |    STATIC        |    0 (ZERO)          |        RAM            |        Same               | Till the end of program.  |
+               |                  |                      |                       |                           |                           |
+ --------------|------------------|----------------------|-----------------------|---------------------------|---------------------------|
+               |                  |                      |                       |                           |                           |
+ 4. EXTERNAL   |    EXTERN        |    0 (ZERO)          |        RAM            |        Global             |          Same             |
+               |                  |                      |                       |                           |                           |
+               |                  |                      |                       |                           |                           |
+               |                  |                      |                       |                           |                           |
+               |                  |                      |                       |                           |                           |
+ --------------|------------------|----------------------|-----------------------|---------------------------|---------------------------|
+
+
+
